@@ -25,3 +25,4 @@ With version control it is easier to experiment without feeling like you are goi
 *Now that you have your workspace set up, what do you want to try using Git for?*
 
 Now that I have Git configured on my workspace I would like to use it to keep track of all of the versions of the files I work on during my Front-end Development course. I will be able to work through any bugs I encounter as I learn and it will allow me the confidence to take chances with my coding.
+
