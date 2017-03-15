@@ -2,3 +2,30 @@
 
 The staging area allows to select and collect files before commiting them.
 
+
+*How can you use the staging area to make sure you have one commit per logical change?*
+
+When you are making changes to a file, eventually you will get to a point where it is a logical time to commit these revisions. By adding the file to staging you have an opportunity to then confirm the changes prior to commiting them.
+
+
+*What are some situations when branches would be helpful in keeping your history organized? How would branches help?*
+
+Using branches you can keep track of the history of you files by beginning a new branch at significant milestones in you process. Branches are a great way to preserve a working version of your code before debugging, experimenting or adding a new feature. Branches allow you to code and test and then allow you to merge branches of code.
+
+
+*How do the diagrams help you visualize the branch structure?*
+
+Drawing diagrams to visualize the branch structure gives you a different perspective on the branches stucture and allows you to understand teh heirachy better.
+
+
+*What is the result of merging two branches together? Why do we represent it in the diagram the way we do?*
+
+The result is the merging of all of the code from the previous commits into one branch. It is represented in the diagram this way to illustrate how each branch has it's own seperate revision history prior to the merge.
+
+*What are the pros and cons of Git’s automatic merging vs. always doing merges manually?*
+
+Pros:
+When automatically merging code, Git can find conflicts in your code between the versions and show you the differences in a text editor.
+
+Cons:
+Manually performing the same process is prone to errors and would be time consuming.
